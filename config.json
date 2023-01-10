@@ -10,12 +10,8 @@
   "arch": ["aarch64", "amd64", "armv7"],
   "boot": "auto",
   "map": ["config:rw","ssl"],
-  "devices": [ "/dev/input/event15" ],
-  "environment": {
-    "ATTACH_BARCODESCANNER": "true"
-  },
   "ports": {
-    "80/tcp": 8621
+    "80/tcp": 900
   },
   "ports_description": {
     "80/tcp": "Web interface"
@@ -33,5 +29,9 @@
     "debug": "bool",
     "curl_allow_insecure_ssl_ca": "bool",
     "curl_allow_insecure_ssl_host": "bool"
+  },
+  "devices": [ "/dev/input/event15" ],
+  "environment": {
+    "ATTACH_BARCODESCANNER": "true"
   }
 }
