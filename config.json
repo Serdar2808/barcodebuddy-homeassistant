@@ -10,9 +10,8 @@
   "arch": ["aarch64", "amd64", "armv7"],
   "boot": "auto",
   "map": ["config:rw","ssl"],
-  "privileged" : ["SYS_ADMIN", "NET_ADMIN", "SYS_MODULE"],
   "ports": {
-    "80/tcp": 900
+    "80/tcp": 800
   },
   "ports_description": {
     "80/tcp": "Web interface"
