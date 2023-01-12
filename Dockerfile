@@ -14,3 +14,5 @@ LABEL \
     io.hass.arch="${BUILD_ARCH}" \
     io.hass.type="addon" \
     io.hass.version=${BUILD_VERSION} 
+
+COPY rootfs/ /
