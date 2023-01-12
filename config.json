@@ -31,7 +31,7 @@
     "curl_allow_insecure_ssl_ca": "bool",
     "curl_allow_insecure_ssl_host": "bool"
   },
-  "devices": [ "/dev/input/event15" ],
+  "devices": [ "/dev/input/by-id/usb-0581_011c-event-kbd" ],
   "environment": {
     "ATTACH_BARCODESCANNER": "true"
   }
